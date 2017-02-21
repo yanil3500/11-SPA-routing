@@ -7,6 +7,7 @@
   // Also be sure to hide all the main section elements, and reveal the #articles section:
 
 articleController.init = function (){
+  console.log('Inside of articleController:');
   Article.fetchAll(articleView.initIndexPage);
   $('.tab-content').hide();
   $('#articles').show();

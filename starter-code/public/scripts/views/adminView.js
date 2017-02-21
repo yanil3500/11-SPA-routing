@@ -11,4 +11,4 @@
   };
 
   Article.fetchAll(adminView.initAdminPage);
-})();
+})(window);
